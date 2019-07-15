@@ -11,13 +11,16 @@ def reverseLock(lockSequence,startLocker):
     for i in range(startLocker,100):
         lockSequence[i-1]=not lockSequence[i-1]
 
-lockSequence=[False]*100   
+def main():
+    lockSequence=[False]*100
 
-print(lockSequence)
+    print(lockSequence)
 
-for i in range(1,100):
-    reverseLock(lockSequence,i)
-    print (lockSequence)
+    for i in range(1,100):
+        reverseLock(lockSequence,i)
+        print (lockSequence)
 
+if __name__ == '__main__':
+    main()
 
 
