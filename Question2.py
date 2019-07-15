@@ -13,9 +13,7 @@ def isPrime(n):
             return False
             break
 
-
     return True
-
 
 def isEmirp(n):
     """ Judges whether an integer is emirp or not.
@@ -36,12 +34,11 @@ def isEmirp(n):
     else:
         return False
 
+def main():
+    n=0
+    num=0
 
-
-n=0
-num=0
-
-while (True):
+    while (True):
         n+=1
         if isEmirp(n):
             print(n,end=' ')
@@ -50,6 +47,9 @@ while (True):
             print("\n")
         if num==100:
             break
+
+if __name__ == '__main__':
+    main()
 
 
 
