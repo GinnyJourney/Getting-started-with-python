@@ -6,7 +6,7 @@ def deleteLeftLineSelect(leftLine,lineToSelect):
         lineToSelect: a list indicating integers which can be chosen before deleting
 
     Returns:
-        None (函数中改了lineToSelect，不算有return吧？)
+        None
     """
 
     if leftLine in lineToSelect:
