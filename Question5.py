@@ -11,7 +11,7 @@ def reverseLock(lockSequence,startLocker):
     for i in range(startLocker,100):
         lockSequence[i-1]=not lockSequence[i-1]
 
-lockSequence=[False]*100   # 输出相同字符
+lockSequence=[False]*100   
 
 print(lockSequence)
 
